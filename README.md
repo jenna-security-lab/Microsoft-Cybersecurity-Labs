@@ -1,2 +1,3 @@
 # Microsoft-Sentinel-Labs
-This repository documents hands-on labs focused on log ingestion, analytics rules, incident investigation, and MITRE ATT&amp;CK–mapped detections in a Microsoft security environment.
+This repository contains hands-on Microsoft Sentinel labs designed to simulate real SOC workflows.
+It includes KQL detection queries, analytics rules, incident investigations, and threat-hunting scenarios using Microsoft Defender and Azure Log Analytics data. Each lab is documented with clear objectives, methodology, findings, and lessons learned.
