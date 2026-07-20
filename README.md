@@ -38,54 +38,67 @@ The projects focus on:
 
 # Cybersecurity Labs
 ## Microsoft Defender XDR Lab
-**Objective:**
-Build and operate a simulated enterprise endpoint security environment using Microsoft Defender XDR.
+**Focus:** Endpoint security, detection, and incident response
+
+This lab builds a simulated enterprise environment using Microsoft Defender XDR to demonstrate endpoint onboarding, security configuration, threat detection, and incident investigation.
 
 Skills demonstrated:
-- Endpoint onboarding
-- Security policy configuration
-- Alert investigation
-- Incident Response
+- Defender for Endpoint deployment
+- Endpoint security configuration
+- Security alert investigation
+- Incident response workflows
 - Threat hunting
 - KQL queries
 - MITRE ATT&CK mapping
+- Incident documentation
+  
+[View Project →](./Defender-XDR-Lab)
 ---
 ## Microsoft Sentinel SIEM Lab
-**Objective:**
-Deploy a cloud-based security monitoring environment using Microsoft Sentinel.
+**Focus:** Security monitoring and detection engineering
+
+This lab demonstrates the deployment of a cloud-based SIEM environment using Microsoft Sentinel for log collection, analytics, threat detection, and investigation.
 
 Skills demonstrated:
-- Log ingestion
-- Analytics rules
-- Detection engineering
+- Data connector configuration
+- Log analysis
+- Analytics rule creation
+- KQL threat hunting
 - Security dashboards
-- Threat hunting
+- Incident investigation
 - Automated response workflows
+
+[View Project →](./Sentinel-SIEM-Lab)
 ---
 ## Active Directory Attack & Defense Lab
-**Objective:**
-Explore common Active Directory attack techniques and implement defensive monitoring.
+**Focus:** Identity security and enterprise defense
+
+This lab explores common Active Directory security challenges and demonstrates defensive techniques used to identify, investigate, and mitigate identity-based threats.
 
 Skills demonstrated:
-- Active Directory Administration
-- Identity security
-- Attack detection
+- Active Directory administration
+- Identity security concepts
 - Windows security logging
+- Attack detection
 - Privilege management
 - Security hardening
+
+[View Project →](./Active-Directory-Attack-Defense-Lab)
 ---
 ## Security Automation Lab
-**Objective:**
-Develop scripts and workflows to automate security administration tasks.
+**Focus:** Security administration and workflow automation
+
+This lab demonstrates the use of scripting and automation to improve security operations and reduce repetitive administrative tasks.
 
 Skills demonstrated:
-- PowerShell Scripting
-- Security reporting
+- PowerShell scripting
 - Endpoint auditing
+- Security reporting
 - User lifecycle automation
-- Administrative efficiency improvements
----
+- Administrative workflow improvements
 
+[View Project →](./Security-Automation)
+---
 # Project Documentation
 Each lab includes:
 
