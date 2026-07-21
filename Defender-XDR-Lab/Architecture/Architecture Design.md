@@ -11,37 +11,39 @@ The environment consists of:
 
 ## Architecture Outline
 
-                                Internet
-                                   │
-                                   │
-                     ┌───────────────────────────┐
-                     │   Microsoft 365 Tenant    │
-                     │         Entra ID          │
-                     │       Defender XDR        │
-                     └─────────────┬─────────────┘
-                                   │
-                        Secure Cloud Connection
-                                   │
-            ┌──────────────────────┴──────────────────────┐
-            │                                             │
-    ┌───────────────┐                             ┌───────────────┐
-    │  LAB-WIN11-01 │                             │  LAB-WIN11-02 │
-    │  Windows 11   │                             │   Windows 11  │
-    │ User Endpoint │                             │ Admin Endpoint│
-    │ Defender MDE  │                             │  Defender MDE │
-    └───────┬───────┘                             └───────┬───────┘
-            │                                             │
-            └──────────────────────┬──────────────────────┘
-                                   │
-                             Domain Network
-                                   │
-                           ┌───────────────┐
-                           │    LAB-DC01   │
-                           │ Windows Server│
-                           │   Active Dir  │
-                           │     DNS       │
-                           │  DHCP (opt.)  │
-                           └───────────────┘
+                                 Internet
+                                    │
+                                    │
+                      ┌────────────────────────────┐
+                      │    Microsoft 365 Tenant    │
+                      │    Entra ID (Cloud IdP)    │
+                      │     Defender XDR (MDE)     │
+                      └─────────────┬──────────────┘
+                                    │
+                         Secure Cloud Connection
+                                    │
+             ┌──────────────────────┴──────────────────────┐
+             │                                             │
+     ┌─────────────────┐                            ┌───────────────┐
+     │   LAB-WIN11-01  │                            │  LAB-WIN11-02 │
+     │    Windows 11   │                            │   Windows 11  │
+     │Employee Endpoint│                            │ Admin Endpoint│
+     │  Defender MDE   │                            │  Defender MDE │
+     │ User: sarah.acc │                            │User: john.admin│
+     └────────┬────────┘                            └───────┬───────┘
+              │                                             │
+              └──────────────────────┬──────────────────────┘
+                                     │
+                               Domain Network
+                                     │
+                         ┌──────────────────────┐
+                         │       LAB-DC01       │
+                         │    Windows Server    │
+                         │   Active Directory   │
+                         │         DNS          │
+                         │      DHCP (opt.)     │
+                         └──────────────────────┘
+
 
 
 ## Environment Components
