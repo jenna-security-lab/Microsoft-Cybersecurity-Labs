@@ -15,3 +15,13 @@ Domain Controller provides DNS.
 
 DNS Server:
 192.168.100.10
+
+## Domain Information
+| Setting      | Value                  |
+| ------------ | ---------------------- |
+| Domain Name  | corp.securitylab.local |
+| Forest Level | Windows Server 2022    |
+| DNS          | LAB-DC01               |
+| DHCP         | Optional               |
+| Network      | 192.168.100.0/24       |
+
