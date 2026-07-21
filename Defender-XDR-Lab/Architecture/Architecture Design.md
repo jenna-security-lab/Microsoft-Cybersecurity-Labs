@@ -1,6 +1,8 @@
 # Architecture Design
 
 ## Overview
+This architecture represents a hybrid Microsoft enterprise environment consisting of an on-premises Active Directory domain integrated with Microsoft Entra ID and Microsoft Defender XDR. Windows endpoints are domain-joined and onboarded to Defender to generate security telemetry for monitoring, investigation, and incident response.
+
 The environment consists of:
 - One Active Directory Domain Controller
 - Two Windows 11 user endpoints
