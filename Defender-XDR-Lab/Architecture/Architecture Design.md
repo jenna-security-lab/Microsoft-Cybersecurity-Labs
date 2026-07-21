@@ -25,7 +25,7 @@ The environment consists of:
     ┌───────────────┐                             ┌───────────────┐
     │  LAB-WIN11-01 │                             │  LAB-WIN11-02 │
     │  Windows 11   │                             │   Windows 11  │
-    │ User Endpoint │                             │ Admin Endpoint │
+    │ User Endpoint │                             │ Admin Endpoint│
     │ Defender MDE  │                             │  Defender MDE │
     └───────┬───────┘                             └───────┬───────┘
             │                                             │
