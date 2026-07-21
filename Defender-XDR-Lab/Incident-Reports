@@ -1,3 +1,5 @@
+# Incident Report Template
+
 # Incident Summary
 Date:
 Severity:
@@ -12,3 +14,9 @@ Technique:
 ## Response
 Actions taken:
 ## Lessons Learned
+
+
+# Save Each Incident Report As:
+Incident-001-EICAR-Malware.md
+Incident-002-Suspicious-PowerShell.md
+Incident-003-Account-Creation.md
