@@ -1,1 +1,4 @@
-
+# KQL Queries
+001- Powershell-Hunting.kql
+002- Failed-Logins.kql
+003- Suspicious-Processes.kql
